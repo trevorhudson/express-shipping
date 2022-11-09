@@ -6,9 +6,9 @@ const router = new express.Router();
 
 const jsonschema = require("jsonschema");
 const shippingSchema = require("../schemas/shippingSchema.json");
-
-
 const { shipProduct } = require("../shipItApi");
+
+
 
 /** POST /ship
  *
