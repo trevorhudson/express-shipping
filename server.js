@@ -2,6 +2,6 @@
 
 const app = require("./app");
 
-app.listen(5001, function () {
-  console.log("Started http://localhost:5001/");
+app.listen(3000, function () {
+  console.log("Started http://localhost:3000/");
 });
